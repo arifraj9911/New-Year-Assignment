@@ -1,6 +1,10 @@
+
 body {
   max-width: 1320px;
   margin: 0 auto;
+
+  /* google font */
+  font-family: 'Poppins', sans-serif; 
 }
 
 /* banner styles */
