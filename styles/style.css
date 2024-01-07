@@ -1,0 +1,30 @@
+body {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* banner styles */
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner.png");
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  border-radius: 16px;
+}
+.banner-greeting {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 200px;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0px;
+}
