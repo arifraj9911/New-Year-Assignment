@@ -132,10 +132,71 @@ body {
 }
 .event-text {
   font-size: 32px;
-  font-weight: 600; /* 175% */
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 30px;
   margin-bottom: 48px;
+}
+
+/* Offer Styles */
+.offer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 120px;
+  align-items: center;
+  /* gap: 80px; */
+}
+
+.offer-circle {
+  margin-left: 60px;
+}
+
+.offer-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.offer-heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+
+.offer-date {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.offer-circle {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.offer-circle > img {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
+.offer-date-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+#offer-date-details {
+  margin-top: 0px;
+  margin-bottom: 43px;
+}
+
+.offer-description,
+.offer-date-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Portfolio Styles */
