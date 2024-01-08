@@ -409,6 +409,9 @@ footer {
     right: 22%;
     margin-top: 70px;
   }
+  #search-button {
+    margin-left: -3px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
