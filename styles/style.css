@@ -395,3 +395,29 @@ footer {
   text-decoration: none;
   color: white;
 }
+
+/* Responsive media query */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .holiday-reward-background {
+    margin-top: -7px;
+  }
+  .holiday-display-img {
+    position: relative;
+  }
+  .holiday-display-discount {
+    position: absolute;
+    right: 22%;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .holiday-display-img {
+    position: relative;
+  }
+  .holiday-display-discount {
+    position: absolute;
+    right: 27%;
+    margin-top: 70px;
+  }
+}
