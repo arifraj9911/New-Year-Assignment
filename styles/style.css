@@ -292,6 +292,13 @@ main {
   margin-top: 48px;
 }
 
+.portfolio-container > img {
+  transition: all 0.5s ease-in-out;
+}
+.portfolio-container > img:hover {
+  transform: scale(1.2);
+}
+
 /* Newsletter Styles */
 .newsletter {
   border-radius: 16px;
